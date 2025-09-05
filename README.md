@@ -10,17 +10,17 @@ I have expertise in technical hardware, software, and network troubleshooting, a
 Summary
 ---
 
-Currently Studying: Cybersecurity Diploma @ ABM College (Graduating Dec 2025)
-Preparing for: Security+, eJPT, OSCP
-Completed: ISC2 CC - September 2025
-Based in: Canada CA
+- Currently Studying: Cybersecurity Diploma @ ABM College (Graduating Dec 2025)
+- Preparing for: Security+, eJPT, OSCP
+- Completed: ISC2 CC - September 2025
+- Based in: Canada CA
 
 ---
 Skills & Tools
 
-Security Tools: Wireshark, Nmap, Hydra, Kali Linux, Metasploit, Burp Suite
-Compliance: NIST, ISO/IEC 27001, PCI-DSS, GDPR
-Certifications: ISC2 CC (2025)
+- Security Tools: Wireshark, Nmap, Hydra, Kali Linux, Metasploit, Burp Suite
+- Compliance: NIST, ISO/IEC 27001, PCI-DSS, GDPR
+- Certifications: ISC2 CC (2025)
 
 
 
