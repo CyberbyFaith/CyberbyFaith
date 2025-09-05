@@ -9,10 +9,12 @@ I have expertise in technical hardware, software, and network troubleshooting, a
 ---
 Summary
 ---
+
 Currently Studying: Cybersecurity Diploma @ ABM College (Graduating Dec 2025)
 Preparing for: Security+, eJPT, OSCP
 Completed: ISC2 CC - September 2025
 Based in: Canada CA
+
 ---
 Skills & Tools
 
