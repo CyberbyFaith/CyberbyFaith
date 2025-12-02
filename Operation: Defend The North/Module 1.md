@@ -1,13 +1,10 @@
-Operation: Defend The North – Tabletop Simulation Analysis
+# Operation: Defend The North – Tabletop Simulation Analysis #
+## Module 1: Cyberattack on Canada’s Supply Chain – Financial Sector in Crisis ##
+
+### Company: Rocket Ledger Express ###
 
 
-Module 1: Cyberattack on Canada’s Supply Chain – Financial Sector in Crisis
-
-
-Company: Rocket Ledger Express
-
-
-📌 Overview
+ **📌 Overview**
 
 
 
