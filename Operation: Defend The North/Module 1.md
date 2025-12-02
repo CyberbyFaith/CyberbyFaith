@@ -17,17 +17,12 @@ The goal of this simulation was to examine cross-departmental coordination, inci
 
 A software update to Rocket Ledger Express’s batch transaction application—a system responsible for sending encrypted payment files to financial institutions—resulted in a failure of real-time transaction recording. Although core systems were online, transactions were not reaching downstream financial systems.
 
-The outage was initially believed to be:
-
-A technical glitch caused by a recent software update
-
-Potentially worsened by middleware failures or blocked communications
-
-Possibly influenced by internal security products or identity access misconfigurations
-
-Not yet confirmed to be a cyberattack or data breach
-
-Merchants were fully unable to process digital payments, creating financial losses and customer frustration.
+***The outage was initially believed to be:***
+- A technical glitch caused by a recent software update
+- Potentially worsened by middleware failures or blocked communications
+- Possibly influenced by internal security products or identity access misconfigurations
+- Not yet confirmed to be a cyberattack or data breach
+- Merchants were fully unable to process digital payments, creating financial losses and customer frustration.
 
 ---
 
@@ -42,166 +37,130 @@ A malfunction in financial payment software caused nationwide disruptions, impac
 
 ### Role	Responsibilities in Simulation:*** ### 
 
-***IT Security Team Lead***	Diagnose technical failures, verify alerts, dispatch teams to affected merchants.
-***CISO*** Escalation management, board communication, cyber insurance evaluation, high-level oversight.
-***Public Relations Officer***	Internal communications, social media monitoring, hotline activation, messaging approvals.
-***Third-Party Vendor Manager***	Vendor outreach, third-party impact assessment, rollback/patch coordination.
-***Chief Privacy Officer***	Confirming whether the incident involves privacy or data exposure.
-***SailPoint Identity Experts***	Privileged access review, validation of terminated accounts, identity misuse checks.
-***Industry Experts*** Provide additional analysis around potential breach vectors and identity security.
+***IT Security Team Lead***
+Diagnose technical failures, verify alerts, dispatch teams to affected merchants.
+
+***CISO***
+Escalation management, board communication, cyber insurance evaluation, high-level oversight.
+
+***Public Relations Officer***	
+Internal communications, social media monitoring, hotline activation, messaging approvals.
+
+***Third-Party Vendor Manager***	
+Vendor outreach, third-party impact assessment, rollback/patch coordination.
+
+***Chief Privacy Officer***	
+Confirming whether the incident involves privacy or data exposure.
+
+***SailPoint Identity Experts***	
+Privileged access review, validation of terminated accounts, identity misuse checks.
+
+***Industry Experts*** 
+Provide additional analysis around potential breach vectors and identity security.
 
 ---
 
 ### 4. Timeline Analysis ###
+
 ***T+0–30 minutes***
-
-Outage detected and confirmed.
-
-Merchants unable to process digital payments.
-
-Internal teams begin diagnostics.
-
-Public relations begins monitoring media chatter.
+- Outage detected and confirmed.
+- Merchants unable to process digital payments.
+- Internal teams begin diagnostics.
+- Public relations begins monitoring media chatter.
 
 ***T+30–60 minutes***
-
-Alerts re-examined for possible cyber-related cause.
-
-Third-party vendor contacted.
-
-No confirmation of breach; privacy incident not declared.
-
-Middleware communication suspected as point of failure.
+- Alerts re-examined for possible cyber-related cause.
+- Third-party vendor contacted.
+- No confirmation of breach; privacy incident not declared.
+- Middleware communication suspected as point of failure.
 
 ***T+60–90 minutes***
-
-Customer frustration increasing.
-
-No digital transactions successfully processed.
-
-Hotline staffed; communication strategy drafted.
-
-CISO prepares message for the board.
-
-Identity access audit initiated due to recent layoffs.
-
-Contingency planning for recovery begins (rollback, patching, alternative workflows).
+- Customer frustration increasing.
+- No digital transactions successfully processed.
+- Hotline staffed; communication strategy drafted.
+- CISO prepares message for the board.
+- Identity access audit initiated due to recent layoffs.
+- Contingency planning for recovery begins (rollback, patching, alternative workflows).
 
 ---
 
 ### 5. Technical Findings ###
 Root Cause Suspicions
-
 Failed update to the batch transaction application.
-
 Middleware or API communication blockage.
-
 Potential interference from internal security tools post-update.
-
 No evidence of external threat actor involvement at this stage.
-
 Systems Observed
 
 Backend reporting portal: Operational
-
 Transaction processing path: Failing to record downstream
-
 Payment terminals: Functional but unable to complete transactions
-
 Key Technical Actions
-
 On-site terminal diagnostics at affected merchant locations.
-
-Log and alert re-evaluation.
-
-Vendor outreach for rollback and patching feasibility.
-
+log and alert re-evaluation.
+vendor outreach for rollback and patching feasibility.
 Review for server communication failures or firewall blocks.
 
 ---
 
 ### 6. Identity & Access Management Review (SailPoint Input) ###
 
-Due to internal staff reduction:
-
-Privileged account review initiated.
-
-Terminated employee accounts validated for closure.
-
-Temporary disabling of suspicious or unclear accounts recommended.
-
-No identity-related breach confirmed.
+- Due to internal staff reduction:
+- Privileged account review initiated.
+- Terminated employee accounts validated for closure.
+- Temporary disabling of suspicious or unclear accounts recommended.
+- No identity-related breach confirmed.
 
 ---
 
 ### 7. Privacy & Compliance Considerations ###
 
-Not classified as a privacy breach at this stage.
-
-Communications avoided using the word “breach” until verified.
-
-Privacy team kept scripts ready in case escalation was required.
+- Not classified as a privacy breach at this stage.
+- Communications avoided using the word “breach” until verified.
+- Privacy team kept scripts ready in case escalation was required.
 
 ---
 
 ### 8. Public Relations & Communications Strategy ###
 
-No immediate external press release; scope still being assessed.
-
-Internal communications prioritized to prevent speculation.
-
-Hotlines activated for merchant support.
-
-Social media and dark web monitoring escalated.
-
-PR must approve all external messaging.
+- No immediate external press release; scope still being assessed.
+- Internal communications prioritized to prevent speculation.
+- Hotlines activated for merchant support.
+- Social media and dark web monitoring escalated.
+- PR must approve all external messaging.
 
 ---
 
 ### 9. Business Impact ###
 
-Complete halt of digital payment processing.
-
-Significant financial impact to merchants—especially during high-traffic hours.
-
-Potential reputational damage to Rocket Ledger Express.
-
-Consideration of store closures due to customer frustration.
+- Complete halt of digital payment processing.
+- Significant financial impact to merchants—especially during high-traffic hours.
+- Potential reputational damage to Rocket Ledger Express.
+- Consideration of store closures due to customer frustration.
 
 ---
 
 ### 10. Lessons Learned & Recommendations ###
-Technical
+***Technical***
+- Implement rollback-safe deployment process for critical systems.
+- Strengthen middleware monitoring and automated alerts.
+- Review internal security tools to prevent unintended blocking of financial flows.
 
-Implement rollback-safe deployment process for critical systems.
+***Identity & Access***
+- Automate and enforce account disablement workflows after layoffs.
+- Conduct more frequent privileged access reviews.
 
-Strengthen middleware monitoring and automated alerts.
+***Communications***
+- Maintain updated crisis playbooks and templates.
+- Ensure rapid activation of merchant hotlines and internal updates.
 
-Review internal security tools to prevent unintended blocking of financial flows.
+***Third-Party Management***
+- Improve real-time communication with third-party vendors.
+- Ensure vendor service SLAs include rapid patch/rollback support.
 
-Identity & Access
-
-Automate and enforce account disablement workflows after layoffs.
-
-Conduct more frequent privileged access reviews.
-
-Communications
-
-Maintain updated crisis playbooks and templates.
-
-Ensure rapid activation of merchant hotlines and internal updates.
-
-Third-Party Management
-
-Improve real-time communication with third-party vendors.
-
-Ensure vendor service SLAs include rapid patch/rollback support.
-
-Business Continuity
-
-Explore backup transaction methods (e.g., offline mode, cash guidance).
-
-Assess cyber insurance readiness for financial-loss scenarios.
+***Business Continuity***
+- Explore backup transaction methods (e.g., offline mode, cash guidance).
+- Assess cyber insurance readiness for financial-loss scenarios.
 
 ---
 
