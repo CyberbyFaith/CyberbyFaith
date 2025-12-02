@@ -22,7 +22,8 @@ A software update to Rocket Ledger Express’s batch transaction application—a
 - Potentially worsened by middleware failures or blocked communications
 - Possibly influenced by internal security products or identity access misconfigurations
 - Not yet confirmed to be a cyberattack or data breach
-- Merchants were fully unable to process digital payments, creating financial losses and customer frustration.
+  
+Merchants were fully unable to process digital payments, creating financial losses and customer frustration.
 
 ---
 
@@ -36,35 +37,35 @@ A malfunction in financial payment software caused nationwide disruptions, impac
 
 ### 3. Key Participants and Their Roles ###
 
-### Role	Responsibilities in Simulation: ### 
+### Role            	Responsibilities in Simulation: ### 
 
 ***IT Security Team Lead***
 
-Diagnose technical failures, verify alerts, dispatch teams to affected merchants.
+-  Diagnose technical failures, verify alerts, dispatch teams to affected merchants.
 
 ***CISO***
 
-Escalation management, board communication, cyber insurance evaluation, high-level oversight.
+- Escalation management, board communication, cyber insurance evaluation, high-level oversight.
 
 ***Public Relations Officer***	
 
-Internal communications, social media monitoring, hotline activation, messaging approvals.
+- Internal communications, social media monitoring, hotline activation, messaging approvals.
 
 ***Third-Party Vendor Manager***	
 
-Vendor outreach, third-party impact assessment, rollback/patch coordination.
+- Vendor outreach, third-party impact assessment, rollback/patch coordination.
 
 ***Chief Privacy Officer***	
 
-Confirming whether the incident involves privacy or data exposure.
+- Confirming whether the incident involves privacy or data exposure.
 
 ***SailPoint Identity Experts***
 
-Privileged access review, validation of terminated accounts, identity misuse checks.
+- Privileged access review, validation of terminated accounts, identity misuse checks.
 
 ***Industry Experts*** 
 
-Provide additional analysis around potential breach vectors and identity security.
+- Provide additional analysis around potential breach vectors and identity security.
 
 ---
 
@@ -93,21 +94,22 @@ Provide additional analysis around potential breach vectors and identity securit
 ---
 
 ### 5. Technical Findings ###
-Root Cause Suspicions
-Failed update to the batch transaction application.
-Middleware or API communication blockage.
-Potential interference from internal security tools post-update.
-No evidence of external threat actor involvement at this stage.
-Systems Observed
-
-Backend reporting portal: Operational
-Transaction processing path: Failing to record downstream
-Payment terminals: Functional but unable to complete transactions
-Key Technical Actions
-On-site terminal diagnostics at affected merchant locations.
-log and alert re-evaluation.
-vendor outreach for rollback and patching feasibility.
-Review for server communication failures or firewall blocks.
+***Root Cause Suspicions***
+- Failed update to the batch transaction application.
+- Middleware or API communication blockage.
+- Potential interference from internal security tools post-update.
+- No evidence of external threat actor involvement at this stage.
+  
+***Systems Observed***
+- Backend reporting portal: ***Operational***
+- Transaction processing path: ***Failing to record downstream***
+- Payment terminals: ***Functional but unable to complete transactions***
+  
+***Key Technical Actions***
+- On-site terminal diagnostics at affected merchant locations.
+- log and alert re-evaluation.
+- vendor outreach for rollback and patching feasibility.
+- Review for server communication failures or firewall blocks.
 
 ---
 
