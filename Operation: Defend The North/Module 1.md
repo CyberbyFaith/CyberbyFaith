@@ -29,33 +29,41 @@ A software update to Rocket Ledger Express’s batch transaction application—a
 ### 2. News Headline Simulation ###
 
 ***“Widespread Transaction Outage Leaves Retailers Unable To Process Debit or Credit Payments.”***
+
 A malfunction in financial payment software caused nationwide disruptions, impacting revenue during peak shopping hours.
 
 ---
 
 ### 3. Key Participants and Their Roles ###
 
-### Role	Responsibilities in Simulation:*** ### 
+### Role	Responsibilities in Simulation: ### 
 
 ***IT Security Team Lead***
+
 Diagnose technical failures, verify alerts, dispatch teams to affected merchants.
 
 ***CISO***
+
 Escalation management, board communication, cyber insurance evaluation, high-level oversight.
 
 ***Public Relations Officer***	
+
 Internal communications, social media monitoring, hotline activation, messaging approvals.
 
 ***Third-Party Vendor Manager***	
+
 Vendor outreach, third-party impact assessment, rollback/patch coordination.
 
 ***Chief Privacy Officer***	
+
 Confirming whether the incident involves privacy or data exposure.
 
-***SailPoint Identity Experts***	
+***SailPoint Identity Experts***
+
 Privileged access review, validation of terminated accounts, identity misuse checks.
 
 ***Industry Experts*** 
+
 Provide additional analysis around potential breach vectors and identity security.
 
 ---
@@ -169,9 +177,17 @@ Review for server communication failures or firewall blocks.
 This tabletop simulation demonstrates the complex interplay between technical systems, incident response teams, communications, vendor management, and identity governance during a financial-sector outage.
 
 ***The exercise highlights the importance of:***
+
+
 ***✔ Rapid cross-department coordination***
+
+
 ***✔ Clear internal and external communication***
+
+
 ***✔ Strong third-party oversight***
+
+
 ***✔ Mature incident response and identity lifecycle processes***
 
 Rocket Ledger Express must continue to strengthen its resilience strategies to mitigate future outages and protect Canada’s financial supply chain.
