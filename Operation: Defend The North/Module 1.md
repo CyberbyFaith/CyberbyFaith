@@ -1,7 +1,15 @@
 Operation: Defend The North – Tabletop Simulation Analysis
+
+
 Module 1: Cyberattack on Canada’s Supply Chain – Financial Sector in Crisis
+
+
 Company: Rocket Ledger Express
+
+
 📌 Overview
+
+
 
 This tabletop exercise simulated a nationwide payment outage affecting retailers across Canada. Rocket Ledger Express, a provider of merchant payment terminals and transaction processing services, experienced a critical disruption starting at 10:00 AM. The outage prevented merchants from processing debit and credit transactions, resulting in significant economic impact and widespread media attention.
 
