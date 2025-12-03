@@ -1,232 +1,207 @@
-# Operation: Defend the North – Module: Pharmacy Cyberattack Crisis #
+Operation: Defend The North – Tabletop Simulation Analysis
+Module 2: Cyberattack on Healthcare – Pharmacy Sector in Crisis
 
-## Scenario: When Cyberattacks Threaten Healthcare — A Pharmacy Crisis Unfolds ##
-### Company: Appointment 2 ###
+Company: Appointment 2
 
-***📌 Overview***
+📌 Overview
 
-Appointment 2 is a medium-sized pharmacy and drugstore operating three locations across a town of ~150,000 residents. They are the only pharmacy service provider, making them a critical part of the community’s healthcare infrastructure.
+This tabletop simulation explored a major outage affecting the only pharmacy service in a town of 150,000 residents. Appointment 2 operates three locations and provides essential prescription and healthcare services.
 
-During this scenario, the pharmacy faces a major cyber incident that halts payment processing and interferes with critical financial and prescription data. This threatens patient safety, revenue, and public trust.
+A sudden system disruption prevented payment processing, caused loss of financial reporting data, and threatened patient access to critical medications. The purpose of this exercise was to analyze incident response, cross-team coordination, public communication, and crisis management in a healthcare-focused cyber scenario.
 
-***📰 News Report Summary***
+1. Incident Summary
 
-A cyber incident has halted prescription refills and essential purchases. Pharmacies cannot process transactions, access reporting data, or confirm medication inventory — putting patients’ health at immediate risk. What began as a financial outage has escalated into a full healthcare service disruption.
+Appointment 2 experienced a failure across its payment and reporting systems following a recent update pushed by a third-party vendor.
 
-### 👥 Key Participants ###
+Key symptoms included:
 
-Canon / SailPoint (Industry Leaders)
+Inability to transact payments across multiple branches
 
-IT Security Team Lead
+Missing or incomplete financial reporting data
 
-CISO
+Vendor maintenance activities possibly linked to the disruption
 
-Business Development Manager
+Shadow IT applications previously identified as a risk factor
 
-IT Manager
+No confirmation yet whether this is a breach, malfunction, or security incident
 
-Incident Commander
+The outage created significant risk to patients, disrupted access to medication, affected revenue, and triggered community concern.
 
-Government Relations Officer
+2. News Headline Simulation
 
-Communications Lead
+“Cyber Incident Halts Prescription Refills and Essential Purchases: Patients Unable to Access Critical Medication.”
+A system malfunction has impacted pharmacies, preventing payment transactions and essential healthcare services across the community.
 
-*** 🔍 Initial Incident Details ***
+3. Key Participants and Their Roles
+Role	Responsibilities in Simulation
+IT Security Team Lead	Review EDR alerts, analyze architecture diagrams, assess vendor integrations, track vulnerabilities.
+CISO	Evaluate potential breach indication, manage executive communication, assess DRP/BCP activation.
+Business Development Manager	Oversight of customer trust, reputation impacts, and prescription service communication.
+IT Manager	Coordinate with vendor on update rollback, restore services, manage shadow IT complications.
+Incident Commander	Maintain update cadence, coordinate IR team, evaluate contingency and continuity plans.
+Government Relations Officer	Engage government healthcare services, coordinate medication distribution during outage.
+Communications Lead	Align messaging with hospitals/government, manage public communication during crisis.
+Canon (Industry Expert)	Provide technical diagnostics, onsite reboot support, backup/security alert forwarding.
+SailPoint (Identity Governance Expert)	Review privileged access, track vendor access, ensure governed identity lifecycle.
+4. Timeline Analysis
+T+0–30 Minutes
 
-Pharmacy cannot transact payments.
+Outage detected across pharmacy branches.
 
-Financial reporting data is missing from terminals.
+Payment terminals unable to process transactions.
 
-Technical team + third-party vendor are investigating.
+Technical team and vendor begin diagnostics.
 
-Root cause unknown (could be software, network, or vendor issue).
+Concern arises over missing financial reporting data.
 
-Shadow IT practices were known but not fully resolved.
+Early suspicion: failed update or network issue.
 
-Treated as a potential security incident or breach.
+T+30–60 Minutes
 
-*** 📌 Stakeholder Responses ***
-CISO
+Vendor involved for root cause analysis.
 
-Shadow IT was an existing issue now contributing to risk.
+IT Security advises against shutting down systems to preserve log integrity.
 
-No confirmation of breach yet, but treat it as a serious incident.
+Shadow IT identified as a contributing factor.
 
-Emphasizes the need for better governance and redundancy.
+Healthcare impact escalates—patients unable to access medication.
 
-Business Development Manager
+T+60–90 Minutes
 
-Customer trust is at immediate risk.
+Community frustration increasing.
 
-Communication must be transparent to prevent loss of faith.
+Government support considered for emergency medication distribution.
 
-Ensure inventory management remains functional.
+Incident Commander drafts initial recovery options.
 
-Incident Commander
+Consideration of rollback, emergency mode, or temporary bypass of batch processes.
 
-Maintain strict cadence of updates.
+CISO begins breach assessment and possible legal communication planning.
 
-Coordinate with vendors for root cause analysis.
+5. Technical Findings
+Root Cause Suspicions
 
-Review contingency plans and continuity of operations.
+Failed update pushed by third-party vendor
 
-IT Security Team Lead
+Disrupted financial batch processes
 
-Review alerts from EDR and infrastructure monitoring.
+API or middleware communication breakdown
 
-Analyze architecture diagrams and vendor integrations.
+Potential unintended blocking by internal security tools
 
-Identify vulnerabilities and isolate potential infection points.
+No confirmed evidence of an external threat actor
 
-IT Manager
+Systems Observed
 
-Confirms this is related to a shadow IT application.
+Payment systems: Online but unable to complete transactions
 
-Two branches are down.
+Financial reports: Missing/incomplete
 
-Goal: restore services via backups or vendor rollback.
+Pharmacy operations: Medication distribution halted
 
-Coordinating with vendor on reverting the update.
+Shadow IT application: Contributing factor to instability
 
-SailPoint (Identity & Access Management)
+Key Technical Actions
 
-Third-party vendors require strict governance and privileged access controls.
+Vendor contacted for rollback feasibility
 
-Access must be removed promptly when no longer needed.
+Backup restoration considered
 
-Identity lifecycle management must be enforced.
+EDR and infrastructure alerts re-evaluated
 
-Canon (Technical Support & Infrastructure)
+Canon dispatched onsite for diagnostics and reboot support
 
-Supporting incident analysis: change management, controls, monitoring.
+Analysis of architecture diagrams and network flow initiated
 
-Ready to dispatch on-site technicians.
+6. Identity & Access Management Review (SailPoint Input)
 
-Funnel backup/security alert data to the IR team.
+Third-party privileged identities reviewed for governance gaps
 
-Coordinate technical response across affected organizations.
+Access of external vendors monitored and validated
 
-Government Relations Officer
+Recommendation to apply stricter lifecycle management to contractors
 
-Focus on life-saving medication distribution.
+No identity misuse detected at this stage
 
-Engage government agencies to support the pharmacy.
+7. Privacy & Compliance Considerations
 
-Assess how long the outage may continue.
+No confirmation of a privacy breach
 
-Verify availability of backup systems for tracking prescriptions.
+CISO preparing breach communication plan only if evidence emerges
 
-Communications Lead
+Legal counsel recommended before any public breach disclosure
 
-Coordinate unified messaging with hospitals and government.
+Compliance teams on standby
 
-Public guidance for patients needing medication.
+8. Public Relations & Communications Strategy
 
-Emergency escalation for EMTs and healthcare staff.
+Unified messaging coordinated with hospitals and government agencies
 
-⚡ Update: Vendor Recommends System Shutdown
+Communications Lead monitors public sentiment and prepares guidance
 
-The update was faulty, and a new patch is coming. Vendor suggests turning systems off.
+Emergency services considered (EMTs, hospital staff, alternate pharmacies)
 
-IT Security Team Lead Response
+Focus on maintaining trust and addressing patient safety concerns
 
-Do not power off systems — may lose important log files.
+9. Business Impact
 
-Suggests isolating affected systems instead.
+Complete halt of digital payments
 
-😷 Escalating Public Impact
+Delayed or unavailable prescription access
 
-Patients are unable to access prescriptions.
+Significant reputational risk
 
-Community frustration poses safety and reputational risks.
+Loss of revenue and customer trust
 
-Need for law enforcement and healthcare coordination.
+Operational downtime across two pharmacy branches
 
-📉 Business Impact (Business Development Manager)
+Potential escalation to public health emergency
 
-Severe reputational damage.
+10. Lessons Learned & Recommendations
+Technical
 
-Revenue loss.
+Implement safer deployment and rollback procedures
 
-Must reassure third parties of security posture.
+Improve API/middleware monitoring
 
-🔐 Identity & Access Controls (SailPoint)
+Strengthen architecture documentation and vendor integration mapping
 
-Track all system access and activity during incident.
+Identity & Access
 
-Use logs for audit and investigation.
+Enforce strict privileged access governance for third parties
 
-🛠️ Technical Response (Canon)
+Ensure timely deprovisioning of vendor access
 
-Sending on-site support to attempt safe reboot/restore.
+Conduct more frequent identity audits
 
-Coordinate upstream/downstream dependencies between systems.
+Communications
 
-Ensure backups and security alerts are routed to IR team.
+Improve community communication playbooks for healthcare outages
 
-🛡️ CISO: DRP & BCP Activation
+Establish rapid escalation paths with hospitals and government partners
 
-Consult Disaster Recovery Plan (DRP).
+Third-Party Management
 
-Activate Business Continuity Plan (BCP) to maintain essential operations.
+Review vendor SLAs regarding updates, rollback, and maintenance
 
-Recognize lack of redundancy as a major lesson learned.
+Adopt stricter oversight and validation of vendor patches
 
-🛠️ Recovery Options
+Business Continuity
 
-Activate emergency mode to bypass older batch systems temporarily.
+Create redundancy for pharmacy payment systems
 
-Consider rollback in a controlled test environment.
+Develop emergency medication distribution workflows
 
-Perform deeper analysis before committing to rollback.
+Enhance DRP and BCP testing for healthcare-specific scenarios
 
-🚨 Possible Breach
+11. Conclusion
 
-If evidence confirms a breach:
+This simulation highlights the severe impact of system outages on healthcare delivery and patient safety. It demonstrates the importance of:
 
-Work with breach lawyers.
+✔ Coordinated multi-team response
+✔ Strong identity governance
+✔ Transparent communication with the public
+✔ Vendor oversight and shadow IT prevention
+✔ Effective business continuity planning
 
-Prepare clear, legally sound communication to public and stakeholders.
-
-📚 What I Learned (Your personal GitHub reflection section)
-
-(Optional — but this looks great on GitHub!)
-
-Key Skills Practiced
-
-Incident response coordination
-
-Business continuity planning
-
-Vendor management & third-party risk
-
-Shadow IT identification
-
-Communication strategies during crises
-
-Log preservation and forensic readiness
-
-Privileged access governance
-
-Cybersecurity Concepts Demonstrated
-
-EDR alert triage
-
-API security
-
-Change management failures
-
-Disaster recovery procedures
-
-Risk communication to public and stakeholders
-
-🏁 Final Thoughts
-
-This module simulates a real-world, high-pressure cyberattack impacting a critical healthcare service. It highlights the importance of:
-
-✔ Strong IT governance
-✔ Shadow IT prevention
-✔ Transparent communication
-✔ Third-party risk management
-✔ Backup and recovery readiness
-✔ Cross-team coordination
+Appointment 2 must strengthen its technical, operational, and governance posture to ensure resilience and safeguard critical healthcare services in future crises.
