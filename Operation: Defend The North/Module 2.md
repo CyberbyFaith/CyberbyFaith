@@ -1,7 +1,7 @@
-### Operation: Defend the North – Module: Pharmacy Cyberattack Crisis ###
+# Operation: Defend the North – Module: Pharmacy Cyberattack Crisis #
 
 ## Scenario: When Cyberattacks Threaten Healthcare — A Pharmacy Crisis Unfolds ##
-# Company: Appointment 2 # 
+### Company: Appointment 2 ###
 
 ***📌 Overview***
 
@@ -13,7 +13,7 @@ During this scenario, the pharmacy faces a major cyber incident that halts payme
 
 A cyber incident has halted prescription refills and essential purchases. Pharmacies cannot process transactions, access reporting data, or confirm medication inventory — putting patients’ health at immediate risk. What began as a financial outage has escalated into a full healthcare service disruption.
 
-##👥 Key Participants
+### 👥 Key Participants ###
 
 Canon / SailPoint (Industry Leaders)
 
@@ -31,7 +31,7 @@ Government Relations Officer
 
 Communications Lead
 
-🔍 Initial Incident Details
+*** 🔍 Initial Incident Details ***
 
 Pharmacy cannot transact payments.
 
@@ -45,7 +45,7 @@ Shadow IT practices were known but not fully resolved.
 
 Treated as a potential security incident or breach.
 
-📌 Stakeholder Responses
+*** 📌 Stakeholder Responses ***
 CISO
 
 Shadow IT was an existing issue now contributing to risk.
