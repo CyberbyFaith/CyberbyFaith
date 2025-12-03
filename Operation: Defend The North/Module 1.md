@@ -36,36 +36,15 @@ A malfunction in financial payment software caused nationwide disruptions, impac
 ---
 
 ### 3. Key Participants and Their Roles ###
-
-### Role            	Responsibilities in Simulation: ### 
-
-***IT Security Team Lead***
-
--  Diagnose technical failures, verify alerts, dispatch teams to affected merchants.
-
-***CISO***
-
-- Escalation management, board communication, cyber insurance evaluation, high-level oversight.
-
-***Public Relations Officer***	
-
-- Internal communications, social media monitoring, hotline activation, messaging approvals.
-
-***Third-Party Vendor Manager***	
-
-- Vendor outreach, third-party impact assessment, rollback/patch coordination.
-
-***Chief Privacy Officer***	
-
-- Confirming whether the incident involves privacy or data exposure.
-
-***SailPoint Identity Experts***
-
-- Privileged access review, validation of terminated accounts, identity misuse checks.
-
-***Industry Experts*** 
-
-- Provide additional analysis around potential breach vectors and identity security.
+| Role                         | Responsibilities in Simulation                                                                        |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------- |
+| **IT Security Team Lead**     | Diagnose technical failures, verify alterts, dispatch teams to affected merchants. |
+| **CISO**                      | Escalation management, board communication, cyber insurance evaluation, high-level oversight. |
+| **Public Relations Officer**  | Internal communications, social media monitoring, hotline activation, messading approvals. |
+| **Third-Party Vendor Manager**| Vendor outreach, third-party impact assessment, rollback/patch corrdination.  |
+| **Chief Privacy Officer**     | Confirming whether the incident involves privacy or data exposure. |
+| **Sailpoint Indenity Experts**| Privileged access review, validation of terminated accounts, identity misuse checks. |
+| **Industry Experts**          | Provide additional analysis around potential breach vectors and identity security. |
 
 ---
 
