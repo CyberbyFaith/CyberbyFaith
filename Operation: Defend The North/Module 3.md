@@ -17,21 +17,15 @@ The municipality’s automated tax payment system stopped processing payments du
 
 During this period, it was discovered that an external actor logged into the environment using root-level access. As a precaution, the system’s connectivity was shut off to prevent further compromise.
 
-Key issues observed:
+**Key issues observed:**
+- Pre-authorized tax payments not processed
+- Citizens receiving incorrect collection notices
+- Evidence of unauthorized root-level login
+- Potential mismanagement of private/master keys
+- Concern of a supply chain compromise through a vendor software package
 
-Pre-authorized tax payments not processed
-
-Citizens receiving incorrect collection notices
-
-Evidence of unauthorized root-level login
-
-Potential mismanagement of private/master keys
-
-Concern of a supply chain compromise through a vendor software package
-
-Lack of clarity about whether this is a malfunction, breach, or attack
-
-Municipal leadership and council demand answers as concerns spread quickly among residents.
+**Lack of clarity about whether this is a malfunction, breach, or attack**
+**Municipal leadership and council demand answers as concerns spread quickly among residents.**
 
 ### 2. News Headline Simulation ###
 
@@ -39,18 +33,20 @@ Municipal leadership and council demand answers as concerns spread quickly among
 
 A system failure has interrupted pre-authorized tax payments, raising concerns about financial administration integrity in the town of 37 Lakes.
 
-**3. Key Participants and Their Roles**
+--- 
 
-Role	Responsibilities in Simulation
-Incident Response Lead / CIO	Lead technical response, root cause analysis, authentication investigation, change management review.
-CEO (Municipal Executive)	Governance oversight, ensures transparency with council and public.
-Third-Party Vendor Manager	Manage vendor investigations, configuration review, remediation guidance, communication with service providers.
-Mayor	Public reassurance, political leadership, executive oversight.
-Council	Demand accountability, request updates, pressure for resolution.
-Public Relations Officer	Draft public messaging, coordinate with provincial and federal authorities, manage citizen communication.
-Investigator	Log analysis, traffic review, and validation of potential exfiltration.
-Industry Expert RZ (Kaspersky)	Analyze root access misuse, confirm supply chain indicators, review key mismanagement issues.
-Industry Expert Alice (TELUS)	Provide telecommunications and infrastructure insight, evaluate potential external access vectors.
+**3. Key Participants and Their Roles**
+| Role                                | Responsibilities in Simulation                                                                        |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| **Incident Response Lead / CIO**| Lead technical response, root cause analysis, authentication investigation, change management review. |
+| **CEO (Municipal Executive)** |	Governance oversight, ensures transparency with council and public. |
+| **Third-Party Vendor Manager** |	Manage vendor investigations, configuration review, remediation guidance, communication with service providers. |
+| **Mayor** |	Public reassurance, political leadership, executive oversight. |
+| **Council** | Demand accountability, request updates, pressure for resolution. |
+| **Public Relations Officer** |	Draft public messaging, coordinate with provincial and federal authorities, manage citizen communication. |
+| **Investigator** | 	Log analysis, traffic review, and validation of potential exfiltration. |
+| **Industry Expert RZ (Kaspersky)** | 	Analyze root access misuse, confirm supply chain indicators, review key mismanagement issues. |
+| **Industry Expert Alice (TELUS)** | Provide telecommunications and infrastructure insight, evaluate potential external access vectors. |
 
 ---
 
@@ -74,6 +70,8 @@ Industry Expert Alice (TELUS)	Provide telecommunications and infrastructure insi
 - Municipality considers rollback as no containment measures have yet been applied.
 - Council demands a formal briefing.
 
+---
+
 **5. Technical Findings**
 -Root Cause Suspicions
 - Unauthorized user accessed system with root privileges
@@ -82,29 +80,20 @@ Industry Expert Alice (TELUS)	Provide telecommunications and infrastructure insi
 - SOC's reactive actions may have unintentionally triggered system failure
 - No proof yet of lateral movement or confirmed exfiltration
 
-Systems Observed
+**Systems Observed**
+- Pre-authorized tax payment system: Non-functional
+- Financial records: Possibly incomplete
+- Authentication logs: Evidence of external root login
 
-Pre-authorized tax payment system: Non-functional
+**Network traffic: Under investigation for abnormal outbound connections**
 
-Financial records: Possibly incomplete
-
-Authentication logs: Evidence of external root login
-
-Network traffic: Under investigation for abnormal outbound connections
-
-Key Technical Actions
-
-Full authentication audit initiated
-
-Log review for indicators of compromise
-
-Traffic analysis for exfiltration suspicion
-
-Vendor contacted for configuration validation
-
-Change management review requested by CIO
-
-Rollback preparation underway
+**Key Technical Actions**
+- Full authentication audit initiated
+- Log review for indicators of compromise
+- Traffic analysis for exfiltration suspicion
+- Vendor contacted for configuration validation
+- Change management review requested by CIO
+- Rollback preparation underway
 
 **6. Identity & Access Management Considerations**
 - Root access granted to vendor may conflict with best practices
@@ -123,15 +112,11 @@ Rollback preparation underway
 - Messaging coordinated with provincial and federal partners
 - Transparency emphasized without disclosing unverified breach details
 
-PR focuses on:
-
-What happened
-
-What residents should expect
-
-Who is involved in the investigation
-
-Commitment to restoring trust and safeguarding taxpayer data
+**PR focuses on:**
+- What happened
+- What residents should expect
+- Who is involved in the investigation
+- Commitment to restoring trust and safeguarding taxpayer data
 
 ### 9. Business & Government Impact ###
 - Halted tax payment processing
